@@ -5,8 +5,8 @@ const app=require("../app");
 const conn=mysql2.createConnection({
     host:"localhost",
     user:"root",
-    password:"1234",
-    database:"guvenler"
+    password:"your password",
+    database:"your database"
 });
 
 conn.connect((err)=>{
