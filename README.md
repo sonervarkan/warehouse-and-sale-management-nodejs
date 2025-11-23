@@ -21,7 +21,7 @@ Printable reports (single-section print)
 ## Project Structure
 
 The project structure is reorganized so that app.js is in the root, and all backend logic files are inside the routes folder:
-
+```
 Product-Calculator
  ├── app.js
  ├── package.json
@@ -54,7 +54,7 @@ Product-Calculator
  │    ├── stockmovements.pug
  │    └── dataquery.pug
  └── README.md
-
+```
 ## Features
 ### Authentication
 
@@ -195,4 +195,3 @@ document.querySelector(".fa-print").addEventListener("click", function() {
 ## License
 
 This project currently has no license.
-If you plan to publish or distribute it, you should add one (MIT recommended).
